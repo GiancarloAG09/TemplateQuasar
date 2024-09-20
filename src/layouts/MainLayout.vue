@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Quasar App </q-toolbar-title>
+        <q-toolbar-title> SYSFUN FUNNEL </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -26,20 +26,20 @@
         "
       >
         <q-list padding>
-          <q-item clickable v-ripple>
+          <q-item clickable v-ripple to="/">
             <q-item-section avatar>
-              <q-icon name="inbox" />
+              <q-icon name="home" />
             </q-item-section>
 
-            <q-item-section> Inbox </q-item-section>
+            <q-item-section> Home </q-item-section>
           </q-item>
 
-          <q-item active clickable v-ripple>
+          <q-item active clickable v-ripple to="/profile">
             <q-item-section avatar>
-              <q-icon name="star" />
+              <q-icon name="person" />
             </q-item-section>
 
-            <q-item-section> Star </q-item-section>
+            <q-item-section> Perfil </q-item-section>
           </q-item>
 
           <q-item clickable v-ripple>
@@ -62,7 +62,7 @@
 
       <q-img
         class="absolute-top"
-        src="https://cdn.quasar.dev/img/material.png"
+        src="../assets/Global Hitss/fondodrawer.jpg"
         style="height: 150px"
       >
         <div class="absolute-bottom bg-transparent">

@@ -13,8 +13,14 @@ const routes = [
     path: "/dashboard",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "", component: () => import("pages/IndexPage.vue") },
-      { path: "profile", component: () => import("pages/Perfil.vue") },
+      {
+        path: "/home",
+        component: () => import("pages/IndexPage.vue"),
+      },
+      {
+        path: "/profile",
+        component: () => import("pages/Perfil.vue"),
+      },
     ],
   },
 

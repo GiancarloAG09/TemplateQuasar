@@ -25,7 +25,7 @@
         "
       >
         <q-list padding>
-          <q-item clickable v-ripple to="/">
+          <q-item clickable v-ripple to="/home">
             <q-item-section avatar>
               <q-icon name="home" />
             </q-item-section>
